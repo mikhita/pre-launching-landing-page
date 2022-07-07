@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@900&family=Big+Shoulders+Display:wght@900&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,200&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&family=Big+Shoulders+Display:wght@900&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,200&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Big+Shoulders+Display:wght@900&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,200&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    padding-top: 6%;
+    padding-left: 6.4%;
+    padding-right: 6.4%;
+}
+.pattern{
+    display: none;
+}
+.keyboard_tablet{
+    display: none;
+}
+.keyboard_desktop{
+    display: none;
+}
+.two_keyboard_tablet{
+    display: none;
+}
+.two_keyboard_desktop{
+    display: none;
+}
+header button{
+    width: 45%;
+    height: 48px;
+    background: #E8EFF2;
+border-radius: 8px;
+font-family: Barlow;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+text-transform: uppercase;
+border: none;
+color: black;
+}
+.keyboard_mobile{
+    background-image: url(./assets/mobile/image-keyboard.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    
+    width: 726px;
+    height: 323px;
+    margin-top: 22%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.type_keyboard{
+    font-family: Barlow;
+font-size: 48px;
+font-weight: 900;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: left;
+color: black;
+text-transform: uppercase;
+}
+.from_typemaster_to_qwertyimg{
+    margin-top: 17%;
+}
+.improve_exper{
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color: #7B8BAD;
+margin-top: 10%;
+}
+.pre_button{
+    width: 45%;
+    height: 48px;
+    background: #F16718;
+border-radius: 8px;
+font-family: Barlow;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+text-transform: uppercase;
+border: none;
+color: white;
+}
+.rel_button{
+    width: 45%;
+    height: 48px;
+    background: white;
+border:none;
+font-family: Barlow;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+text-transform: uppercase;
+color:rgba(123, 139, 173, 1);
+}
+.buttons_5 {
+display: flex;
+justify-content: space-between;
+margin-top: 10%;
+}
+.small_keyboard img{
+    width: 120px;
+    height: 180px;
+    border-radius: 22px;
+    
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+   
+    
+}
+.small_keyboard{
+    background-color: orange;
+    border-radius: 12px;
+    transform: translate(-40%,0);
+}
+
+.big_keyboard img{
+    width: 220px;
+    height: 180px;
+    border-radius: 22px;
+}
+.two_keyboard_mobile{
+    display: flex;
+    margin-top: 10%;
+}
+.mechanical_text{
+    display: block;
+    font-family: Barlow;
+font-size: 32px;
+font-weight: 900;
+line-height: 36px;
+letter-spacing: 0px;
+
+text-align: center;
+text-transform: uppercase;
+width: 224px;
+color: #162542;
+}
+.mechanical_text_connectivity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+.conectivity_text{
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+text-align: center;
+margin-top: 10%;
+color: #7B8BAD;
+}
+.img_div{
+    background: #F16718;
+border-radius: 16px;
+width: 65px;
+height: 65px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 42%;
+}
+.title{
+    font-family: Barlow;
+font-size: 24px;
+font-weight: 900;
+line-height: 28px;
+letter-spacing: 0px;
+padding-left: 20%;
+padding-right: 20%;
+text-align: center;
+text-transform: uppercase;
+margin-top: 15%;
+color: #162542;
+}
+.footer_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin-top: 30%;
+}
+.under_title{
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+color: #7B8BAD;
+margin-top: 15%;
+}
+.conteiner{
+    margin-top: 20%;
+    
+}
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+footer p span{
+    
+    
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #7B8BAD;
+}
+footer p{
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+
+color: #7B8BAD;
+}
+@media only screen and (min-width: 768px){
+    * {
+        padding: 0;
+        margin: 0;
+
+}
+
+    .from_typemaster_to_qwertyimg{
+        display: flex;
+        justify-content: space-between;
+    }
+    .keyboard_mobile{
+        background-image: url(./assets/tablet/image-keyboard.jpg);
+        height: 214px;
+        background-size: 100%;
+        height: 325px;
+width: 1034px;
+margin: 0%;
+transform: translate(30%,-7%);
+
+    }
+    header button{
+        width: 23%;
+
+    }
+    
+    .two_keyboard_mobile{
+        display: none;
+    }
+    .two_keyboard_tablet{
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-between;
+       
+    }
+    .small_keyboard_tablet{
+        width: 200px;
+        height: 320px;
+        background-color: orange;
+        border-radius: 12px;
+
+    }
+    .small_keyboard_tablet img{
+        width:100%;
+        height: 100%;
+        border-radius: 22px;
+        mix-blend-mode: multiply;
+        opacity: 0.75;
+       
+    }
+    .big_keyboard_tablet{
+        width: 420px;
+        height: 320px;
+    }
+    .big_keyboard_tablet img{
+        width:100%;
+        height: 100%;
+        border-radius: 22px;
+    }
+    .mechanical_text_connectivity{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10%;
+    }
+    .conectivity_text{
+        width:60%;
+       
+
+    }
+    .footer_div{
+        margin-top: 10%;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .title{
+        margin:0;
+        text-align: left;
+        padding: 0%;
+        margin-top: 10%;
+    }
+    .under_title{
+        text-align: left;
+        margin:0;
+        margin-top: 10%;
+    }
+    .img_div{
+        margin: 0%;
+        margin-top: 10%;
+    }
+    .conteiner{
+        margin-top: 10%;
+        width: 40%;
+        margin: 0%;
+    }
+    .conectivity_text{
+        margin: 0%;
+    }
+} 
+@media only screen and (min-width: 1440px){
+    .small_keyboard_tablet img{
+        
+        mix-blend-mode: multiply;
+        opacity: 0.75;
+    }
+    .small_keyboard_tablet{
+        background-color: orange;
+        border-radius: 12px;
+    }
+
+    body{
+        padding-left: 165px;
+        padding-right: 165px;
+        
+    }
+    .keyboard_mobile{
+        background-image: url(./assets/tablet/image-keyboard.jpg);
+       
+        background-size: 100%;
+        height: 470px;
+width: 900px;
+margin-top: -7%;
+transform: translate(0,0);
+
+    }
+    header button:hover{
+        background-color: black;
+        color: #E8EFF2;
+    }
+    .typemaster_and_long_text{
+        width:80%;
+    }
+    .buttons_5 button{
+width:175px;
+
+
+    }
+    .buttons_5{
+        justify-content: start;
+        
+    }
+    .from_keyboard_to_connectivity{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+    }
+    .mechanical_text_connectivity{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: left;
+
+       margin:0;
+       transform: translate(20%,0);
+    }
+    .big_keyboard_tablet{
+        padding-left: 10%;
+    }
+    .mechanical_text{
+        text-align: left;
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+    }
+    .conectivity_text{
+        text-align: left;
+        margin: 0%;
+        padding: 0%;
+    }
+    .footer_div{
+        flex-direction: row;
+    }
+    .conteiner{
+        width: 18%;
+    }
+    #bloototh{
+        margin-top: 2%;
+    }
+    footer{
+        margin: 0%;
+    }
+    .pattern{
+        display: block;
+    }
+    .pattern1{
+        transform: translate(-120%,-305%);
+    }
+    .pattern2{
+        transform: translate(345%,-560%);
+    }
+    .pre_button:hover{
+        background-color: #FF9B62;
+        color: #E8EFF2;
+    }
+}
